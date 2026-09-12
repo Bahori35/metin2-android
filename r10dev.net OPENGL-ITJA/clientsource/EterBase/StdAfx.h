@@ -9,7 +9,7 @@
 #pragma warning(disable:4995)	// pragma deprecated
 
 #pragma warning(disable:4710)	// not inlined
-#pragma warning(disable:4786)	// character 255 �Ѿ�°� ����
+#pragma warning(disable:4786)	// character 255
 #pragma warning(disable:4244)	// type conversion possible lose of data
 #include "../UserInterface/Locale_inc.h"
 
@@ -50,8 +50,14 @@
     inline void DeleteCriticalSection(CRITICAL_SECTION* lp) {}
     inline void EnterCriticalSection(CRITICAL_SECTION* lp) {}
     inline void LeaveCriticalSection(CRITICAL_SECTION* lp) {}
-    typedef struct { LONG x; LONG y; } POINT;
-    typedef struct { LONG left; LONG top; LONG right; LONG bottom; } RECT;
+    #ifndef _POINT_DEFINED
+    #define _POINT_DEFINED
+    typedef struct tagPOINT { LONG x; LONG y; } POINT;
+    #endif
+    #ifndef _RECT_DEFINED
+    #define _RECT_DEFINED
+    typedef struct tagRECT { LONG left; LONG top; LONG right; LONG bottom; } RECT;
+    #endif
     typedef const char* LPCSTR;
     typedef char* LPSTR;
     typedef int BOOL;

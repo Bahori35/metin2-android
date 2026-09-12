@@ -31,17 +31,19 @@ typedef long HRESULT;
 #define SUCCEEDED(hr) (((HRESULT)(hr)) >= 0)
 #endif
 
+#include <stdint.h>
+
 #ifndef CONST
 #define CONST const
 #endif
 
-typedef unsigned int UINT;
-typedef unsigned long DWORD;
-typedef unsigned char BYTE;
-typedef unsigned short WORD;
-typedef long LONG;
+typedef uint32_t UINT;
+typedef uint32_t DWORD;
+typedef uint8_t BYTE;
+typedef uint16_t WORD;
+typedef int32_t LONG;
 typedef int BOOL;
-typedef unsigned long ULONG;
+typedef uint32_t ULONG;
 typedef const void* LPCVOID;
 typedef void* LPVOID;
 typedef const char* LPCSTR;
@@ -72,11 +74,14 @@ typedef struct tagRECT {
 #endif
 #endif
 
+#ifndef _POINT_DEFINED
+#define _POINT_DEFINED
 #ifndef POINT
 typedef struct tagPOINT {
     LONG x;
     LONG y;
 } POINT, *PPOINT, *LPPOINT;
+#endif
 #endif
 
 #ifndef SIZE
@@ -194,7 +199,10 @@ typedef int D3DPOOL;
 #define D3DPT_TRIANGLESTRIP 5
 #define D3DPT_TRIANGLEFAN 6
 
-#define D3DLOCKED_RECT void*
+typedef struct _D3DLOCKED_RECT {
+    int Pitch;
+    void* pBits;
+} D3DLOCKED_RECT;
 
 #define D3DTA_TFACTOR 1
 #define D3DTA_TEXTURE 2

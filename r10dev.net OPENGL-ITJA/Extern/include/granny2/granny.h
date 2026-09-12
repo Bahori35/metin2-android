@@ -212,7 +212,7 @@
 #define GRANNY_CALLBACK(ret) ret
 #define GRANNY_DYNIMPDATA(type) type
 #define GRANNY_DYNEXPDATA(type) type
-#if defined(ANDROID_ARM64)
+#if defined(ANDROID_ARM64) || defined(__aarch64__) || defined(__arm64__)
 #undef  GRANNY_64BIT_PTR
 #define GRANNY_64BIT_PTR 1
 // The second clause detects NaCl, which is x64 with 32 bit pointers.                                                            
