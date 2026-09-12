@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Setup Android NDK
-        uses: nandroid/setup-ndk@v1
+        uses: nttld/setup-ndk@v1
         with:
           ndk-version: r25c
 
@@ -36,7 +36,11 @@ jobs:
       - name: Build with Gradle
         working-directory: r10dev.net OPENGL-ITJA/android
         run: |
-          gradle assembleDebug --stacktrace || ./gradlew assembleDebug --stacktrace
+          if [ -f "gradlew" ]; then
+            ./gradlew assembleDebug --stacktrace
+          else
+            gradle assembleDebug --stacktrace
+          fi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
