@@ -10,9 +10,9 @@
 #define GrannyTypeSizeCheck(expr) 
 #include <granny.h>
 #undef GrannyTypeSizeCheck
-#include "../eterBase/Utils.h"
-#include "../eterBase/Debug.h"
-#include "../eterBase/Stl.h"
+#include "../EterBase/Utils.h"
+#include "../EterBase/Debug.h"
+#include "../EterBase/Stl.h"
 
 #include "Util.h"
 

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../eterLib/StdAfx.h"
-#include "../eterGrnLib/StdAfx.h"
+#include "../EterLib/StdAfx.h"
+#include "../EterGrnLib/StdAfx.h"
 
 #include "../UserInterface/Locale_inc.h"
 #ifdef AT

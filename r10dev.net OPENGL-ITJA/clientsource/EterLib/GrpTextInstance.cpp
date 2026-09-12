@@ -3,9 +3,9 @@
 #include "StateManager.h"
 #include "IME.h"
 #include "TextTag.h"
-#include "../eterLocale/StringCodec.h"
-#include "../eterBase/Utils.h"
-#include "../eterLocale/Arabic.h"
+#include "../EterLocale/StringCodec.h"
+#include "../EterBase/Utils.h"
+#include "../EterLocale/Arabic.h"
 
 extern DWORD GetDefaultCodePage();
 

@@ -1,5 +1,5 @@
 #include "Stdafx.h"
-#include "../eterLib/GrpLightManager.h"
+#include "../EterLib/GrpLightManager.h"
 
 #include "SimpleLightInstance.h"
 

@@ -1,11 +1,11 @@
 #include "Stdafx.h"
 #include "EterPackPolicy_CSHybridCrypt.h"
-#include "../eterBase/Stl.h"
-#include "../eterBase/Filename.h"
-#include "../eterBase/FileBase.h"
-#include "../eterBase/CRC32.h"
-#include "../eterBase/lzo.h"
-#include "../eterBase/Random.h"
+#include "../EterBase/Stl.h"
+#include "../EterBase/Filename.h"
+#include "../EterBase/FileBase.h"
+#include "../EterBase/CRC32.h"
+#include "../EterBase/lzo.h"
+#include "../EterBase/Random.h"
 #include <cryptopp/modes.h>
 #include <cryptopp/osrng.h>
 

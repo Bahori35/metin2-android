@@ -45,7 +45,7 @@
 
 #include <vector>
 
-#include "../eterBase/Singleton.h"
+#include "../EterBase/Singleton.h"
 
 #define CONST const
 

@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "StdAfx.h"
-#include "../eterBase/Utils.h"
+#include "../EterBase/Utils.h"
 #include "Camera.h"
 
 const float c_fDefaultResistance = 0.3f;

@@ -1,5 +1,5 @@
 #include "StdAfx.h"
-#include "../eterBase/Error.h"
+#include "../EterBase/Error.h"
 #include "../eterlib/Camera.h"
 #include "../eterlib/AttributeInstance.h"
 #include "../gamelib/AreaTerrain.h"

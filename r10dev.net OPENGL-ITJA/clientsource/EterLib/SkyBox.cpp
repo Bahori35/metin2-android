@@ -4,7 +4,7 @@
 #include "StateManager.h"
 #include "ResourceManager.h"
 
-#include "../eterBase/Timer.h"
+#include "../EterBase/Timer.h"
 
 //////////////////////////////////////////////////////////////////////////
 // CSkyObjectQuad

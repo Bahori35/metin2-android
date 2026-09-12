@@ -6,7 +6,7 @@
 #include "../EterLib/GrpOpenGL.h"
 #endif
 
-#include "../eterLib/TextFileLoader.h"
+#include "../EterLib/TextFileLoader.h"
 
 #include "Type.h"
 #include "EffectElementBase.h"

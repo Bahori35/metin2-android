@@ -2,9 +2,9 @@
 
 #include "../UserInterface/Locale_inc.h"
 #ifdef _IMPROVED_PACKET_ENCRYPTION_
-#include "../eterBase/cipher.h"
+#include "../EterBase/cipher.h"
 #endif
-#include "../eterBase/tea.h"
+#include "../EterBase/tea.h"
 #include "NetAddress.h"
 
 class CNetworkStream

@@ -1,8 +1,8 @@
 #include "StdAfx.h"
-#include "../eterBase/MappedFile.h"
+#include "../EterBase/MappedFile.h"
 #include "../eterPack/EterPackManager.h"
 #include "GrpImageTexture.h"
-#include "../eterImageLib/TGAImage.h"
+#include "../EterImageLib/TGAImage.h"
 
 bool CGraphicImageTexture::Lock(int* pRetPitch, void** ppRetPixels, int level)
 {

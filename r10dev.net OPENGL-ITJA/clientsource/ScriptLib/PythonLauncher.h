@@ -1,7 +1,7 @@
 #pragma once
 #include "../../Extern/include/Python2/frameobject.h"
 
-#include "../eterBase/Singleton.h"
+#include "../EterBase/Singleton.h"
 
 class CPythonLauncher : public CSingleton<CPythonLauncher>
 {

@@ -10,7 +10,7 @@
 #ifndef _CRT_SECURE_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNINGS
 #endif
-#include "../userInterface/Locale_inc.h"
+#include "../UserInterface/Locale_inc.h"
 
 #define _WIN32_DCOM
 
@@ -59,9 +59,9 @@
 #pragma comment(lib, "d3dx8.lib")
 #endif
 
-#include "../eterBase/StdAfx.h"
-#include "../eterBase/Debug.h"
-#include "../eterLocale/CodePageId.h"
+#include "../EterBase/StdAfx.h"
+#include "../EterBase/Debug.h"
+#include "../EterLocale/CodePageId.h"
 
 #if !defined(VC_EXTRALEAN)
 #ifndef __ANDROID__

@@ -2,7 +2,7 @@
 #include "AccountConnector.h"
 #include "Packet.h"
 #include "PythonNetworkStream.h"
-#include "../eterBase/tea.h"
+#include "../EterBase/tea.h"
 #include "../eterPack/EterPackManager.h"
 
 #include "Hackshield.h"

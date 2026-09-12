@@ -6,7 +6,7 @@
 
 #include "../eterlib/GrpScreen.h"
 #include "../eterlib/StateManager.h"
-#include "../eterLib/GrpImageInstance.h"
+#include "../EterLib/GrpImageInstance.h"
 #include "EmitterProperty.h"
 
 class CParticleSystemInstance : public CEffectElementBaseInstance

@@ -1,5 +1,5 @@
 #include "StdAfx.h"
-#include "../eterBase/CRC32.h"
+#include "../EterBase/CRC32.h"
 #include <string>
 #include "../eterPack/EterPackManager.h"
 

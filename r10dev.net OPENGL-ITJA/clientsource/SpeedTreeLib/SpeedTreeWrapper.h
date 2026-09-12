@@ -46,9 +46,9 @@
 #endif
 #include <vector>
 
-#include "../eterLib/GrpObjectInstance.h"
-#include "../eterLib/GrpImageInstance.h"
-#include "../eterLib/GrpCollisionObject.h"
+#include "../EterLib/GrpObjectInstance.h"
+#include "../EterLib/GrpImageInstance.h"
+#include "../EterLib/GrpCollisionObject.h"
 
 #ifndef SAFE_DELETE
 #define SAFE_DELETE(p)       { if (p) { delete (p);     (p) = NULL; } }

@@ -10,9 +10,9 @@
 #endif
 
 #include "../eterPack/EterPackManager.h"
-#include "../eterLib/Util.h"
+#include "../EterLib/Util.h"
 #include "../CWebBrowser/CWebBrowser.h"
-#include "../eterBase/CPostIt.h"
+#include "../EterBase/CPostIt.h"
 
 #include "CheckLatestFiles.h"
 
@@ -256,7 +256,7 @@ bool __CheckPyLibFiles()
 
 #ifdef ENABLE_MILES_CHECK
 #include <algorithm>
-#include "../eterBase/Filename.h"
+#include "../EterBase/Filename.h"
 // #include "../EterBase/CRC32.h"
 #define PRINT_LEVEL 0
 #define PRINTME(level, ...) if(PRINT_LEVEL>=level) TraceError(__VA_ARGS__);

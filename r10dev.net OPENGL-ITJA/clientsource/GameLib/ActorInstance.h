@@ -11,7 +11,7 @@
 #include "PhysicsObject.h"
 #include "ActorInstanceInterface.h"
 #include "Interface.h"
-//#include "../eterGrnLib/ThingInstance.h"
+//#include "../EterGrnLib/ThingInstance.h"
 #include "GameLibDefines.h"
 
 class CItemData;

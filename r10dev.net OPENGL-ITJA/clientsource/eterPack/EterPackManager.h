@@ -4,8 +4,8 @@
 #include <windows.h>
 #endif
 #include <boost/unordered_map.hpp>
-#include "../eterBase/Singleton.h"
-#include "../eterBase/Stl.h"
+#include "../EterBase/Singleton.h"
+#include "../EterBase/Stl.h"
 
 #include "EterPack.h"
 

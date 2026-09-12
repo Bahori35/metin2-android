@@ -1,8 +1,8 @@
 #include "StdAfx.h"
 #include <io.h>
-#include "../eterBase/CRC32.h"
-#include "../eterBase/Timer.h"
-#include "../eterBase/Stl.h"
+#include "../EterBase/CRC32.h"
+#include "../EterBase/Timer.h"
+#include "../EterBase/Stl.h"
 #include "../eterPack/EterPackManager.h"
 
 #include "ResourceManager.h"

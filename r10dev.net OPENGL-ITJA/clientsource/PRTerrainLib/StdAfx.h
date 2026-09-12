@@ -19,7 +19,7 @@
 
 #include "../EterLib/StdAfx.h"
 #include "../EterGrnLib/StdAfx.h"
-#include "../scriptLib/StdAfx.h"
+#include "../ScriptLib/StdAfx.h"
 
 #include "../UserInterface/Locale_inc.h"
 /* Fast Float<->Integer conversion */

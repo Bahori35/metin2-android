@@ -8,4 +8,4 @@
 #endif
 #include <assert.h>
 
-#include "../eterBase/StdAfx.h"
+#include "../EterBase/StdAfx.h"

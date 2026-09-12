@@ -18,9 +18,9 @@
 
 //#include <crtdbg.h>
 
-#include "../eterBase/CRC32.h"
-#include "../eterBase/Utils.h"
-#include "../eterBase/Debug.h"
+#include "../EterBase/CRC32.h"
+#include "../EterBase/Utils.h"
+#include "../EterBase/Debug.h"
 
 #include "../UserInterface/Locale_inc.h"
 //{{AFX_INSERT_LOCATION}}

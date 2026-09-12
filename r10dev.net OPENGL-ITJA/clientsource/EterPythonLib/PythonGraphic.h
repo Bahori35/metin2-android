@@ -5,7 +5,7 @@
 #include "../eterlib/GrpImageInstance.h"
 #include "../eterlib/GrpExpandedImageInstance.h"
 
-#include "../eterGrnLib/ThingInstance.h"
+#include "../EterGrnLib/ThingInstance.h"
 
 class CPythonGraphic : public CScreen, public CSingleton<CPythonGraphic>
 {

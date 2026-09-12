@@ -38,7 +38,7 @@
 #include <stdio.h>
 #endif
 
-#include "../eterBase/Timer.h"
+#include "../EterBase/Timer.h"
 #include "../eterlib/StateManager.h"
 #include "../eterlib/Camera.h"
 

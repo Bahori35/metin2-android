@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "GrpText.h"
-#include "../eterBase/Stl.h"
+#include "../EterBase/Stl.h"
 
 #include "Util.h"
 

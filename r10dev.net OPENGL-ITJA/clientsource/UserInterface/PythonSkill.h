@@ -2,7 +2,7 @@
 
 #include "../gamelib/ItemData.h"
 #include "../gamelib/GameLibDefines.h"
-#include "../eterBase/Poly/Poly.h"
+#include "../EterBase/Poly/Poly.h"
 
 class CInstanceBase;
 

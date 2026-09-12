@@ -2,7 +2,7 @@
 #include "SoundData.h"
 
 #include "../EterPack/EterPackManager.h"
-#include "../eterBase/Timer.h"
+#include "../EterBase/Timer.h"
 
 bool CSoundData::ms_isSoundFile[SOUND_FILE_MAX_NUM];
 CMappedFile CSoundData::ms_SoundFile[SOUND_FILE_MAX_NUM];

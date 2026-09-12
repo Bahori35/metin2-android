@@ -2,7 +2,7 @@
 #include "GrpImageInstance.h"
 #include "StateManager.h"
 
-#include "../eterBase/CRC32.h"
+#include "../EterBase/CRC32.h"
 //STATEMANAGER.SaveRenderState(D3DRS_SRCBLEND, D3DBLEND_INVDESTCOLOR);
 //STATEMANAGER.SaveRenderState(D3DRS_DESTBLEND, D3DBLEND_ONE);
 //STATEMANAGER.RestoreRenderState(D3DRS_SRCBLEND);

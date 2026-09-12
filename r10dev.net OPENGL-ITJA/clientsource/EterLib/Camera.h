@@ -11,7 +11,7 @@
 
 #include <map>
 
-#include "../eterBase/Singleton.h"
+#include "../EterBase/Singleton.h"
 #include "Ray.h"
 
 const float CAMERA_TARGET_STANDARD = 100.0f;

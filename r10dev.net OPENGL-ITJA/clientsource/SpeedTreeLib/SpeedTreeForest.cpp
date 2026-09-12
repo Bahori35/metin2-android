@@ -6,8 +6,8 @@
 #include "StdAfx.h"
 
 #include <vector>
-#include "../eterBase/Filename.h"
-#include "../eterBase/MappedFile.h"
+#include "../EterBase/Filename.h"
+#include "../EterBase/MappedFile.h"
 #include "../eterPack/EterPackManager.h"
 
 #include "SpeedTreeForest.h"

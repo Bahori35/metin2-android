@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../eterGrnLib/Thing.h"
+#include "../EterGrnLib/Thing.h"
 
 class CRaceMotionData;
 class CAttributeData;

@@ -22,15 +22,15 @@
 #pragma warning(disable:4201 4512 4238 4239)
 #endif
 
-#include "../userInterface/Locale_inc.h"
+#include "../UserInterface/Locale_inc.h"
 
-#include "../eterBase/Utils.h"
-#include "../eterBase/CRC32.h"
-#include "../eterBase/Random.h"
+#include "../EterBase/Utils.h"
+#include "../EterBase/CRC32.h"
+#include "../EterBase/Random.h"
 
-#include "../eterLib/StdAfx.h"
-#include "../milesLib/StdAfx.h"
-#include "../effectLib/StdAfx.h"
+#include "../EterLib/StdAfx.h"
+#include "../MilesLib/Stdafx.h"
+#include "../EffectLib/StdAfx.h"
 
 #include "GameType.h"
 #include "GameUtil.h"

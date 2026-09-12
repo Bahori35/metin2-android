@@ -9,7 +9,7 @@
 #include "../eterlib/GrpScreen.h"
 #include "../eterlib/Resource.h"
 #include "../eterlib/GrpImageInstance.h"
-#include "../eterLib/TextFileLoader.h"
+#include "../EterLib/TextFileLoader.h"
 
 #include "Type.h"
 #include "EffectElementBase.h"

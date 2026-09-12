@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../eterBase/Utils.h"
+#include "../EterBase/Utils.h"
 
 namespace UI
 {

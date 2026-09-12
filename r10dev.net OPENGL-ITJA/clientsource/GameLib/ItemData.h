@@ -3,8 +3,8 @@
 // NOTE : Item�� ���� ���� Ŭ������.
 //        Icon, Model (droped on ground), Game Data
 
-#include "../eterLib/GrpSubImage.h"
-#include "../eterGrnLib/Thing.h"
+#include "../EterLib/GrpSubImage.h"
+#include "../EterGrnLib/Thing.h"
 #include "GameLibDefines.h"
 
 class CItemData

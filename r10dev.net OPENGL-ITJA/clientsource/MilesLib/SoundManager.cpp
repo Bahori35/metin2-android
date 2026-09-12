@@ -2,7 +2,7 @@
 #include <math.h>
 
 #include "SoundManager.h"
-#include "../eterBase/Timer.h"
+#include "../EterBase/Timer.h"
 
 CSoundManager2D CSoundManager::ms_SoundManager2D;
 CSoundManager3D CSoundManager::ms_SoundManager3D;

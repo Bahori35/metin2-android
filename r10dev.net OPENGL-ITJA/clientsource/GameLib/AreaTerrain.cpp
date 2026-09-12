@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "../PRTerrainLib/StdAfx.h"
 
-#include "../eterLib/ResourceManager.h"
+#include "../EterLib/ResourceManager.h"
 #include "../eterlib/StateManager.h"
 #include "../EterPack/EterPackManager.h"
 
