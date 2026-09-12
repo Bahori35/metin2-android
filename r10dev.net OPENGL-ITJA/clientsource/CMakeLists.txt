@@ -230,7 +230,7 @@ set(MILES_LIB_SOURCES
     MilesLib/SoundManager2D.cpp
     MilesLib/SoundManager3D.cpp
     MilesLib/SoundManagerStream.cpp
-    MilesLib/StdAfx.cpp
+    MilesLib/Stdafx.cpp
     MilesLib/Type.cpp
 )
 
