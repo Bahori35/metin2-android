@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "P:\\NCAFE\\design\\desktop\\remix_-r345\\clientsource\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\NCAFE\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "P:\\NCAFE\\design\\desktop\\remix_-r345\\android\\app\\.cxx\\Debug\\2w13583x\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\NCAFE\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "P:\\NCAFE\\design\\desktop\\remix_-r345\\android\\app\\.cxx\\Debug\\2w13583x\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "metin2_mobile::@6890427a1f51a3e7e1df": {
+      "artifactName": "metin2_mobile",
+      "abi": "x86_64",
+      "output": "P:\\NCAFE\\design\\desktop\\remix_-r345\\android\\app\\build\\intermediates\\cxx\\Debug\\2w13583x\\obj\\x86_64\\libmetin2_mobile.so",
+      "runtimeFiles": []
+    }
+  }
+}

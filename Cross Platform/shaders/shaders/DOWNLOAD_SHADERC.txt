@@ -1,0 +1,57 @@
+================================================================
+HOW TO GET SHADERC.EXE FOR SHADER COMPILATION
+================================================================
+
+You need shaderc.exe to compile the shaders for Direct3D 11.
+
+OPTION 1: Download Prebuilt Binary (EASIEST)
+---------------------------------------------
+1. Go to: https://github.com/bkaradzic/bgfx/releases/latest
+
+2. Download one of these files:
+   - bgfx-windows.zip (or)
+   - bgfx-x64-windows.zip
+
+3. Extract the ZIP file
+
+4. Find shaderc.exe in the extracted folder:
+   - Usually in: tools/bin/windows/shaderc.exe
+
+5. Copy shaderc.exe to:
+   D:\development\NEW\client\build-external\shaderc.exe
+
+6. Run the compilation script:
+   D:\development\NEW\client\shaders\compile_shaders_d3d11.bat
+
+
+OPTION 2: Build from Source (Advanced)
+---------------------------------------
+If the prebuilt binary doesn't work, you can build it:
+
+1. Navigate to:
+   D:\development\NEW\client\build-external\shaderc-standalone
+
+2. Read BUILD_INSTRUCTIONS.md for detailed steps
+
+3. You'll need to build bgfx dependencies first
+
+
+VERIFICATION
+------------
+After placing shaderc.exe, verify it works:
+
+1. Open Command Prompt
+2. Run: D:\development\NEW\client\build-external\shaderc.exe --version
+3. You should see version information
+
+If you see the version, you're ready to compile shaders!
+
+
+NEXT STEPS
+----------
+Once shaderc.exe is in place:
+1. Double-click: compile_shaders.bat
+2. The script will compile all 8 shader files
+3. Compiled shaders will be placed in: ..\bin\shaders\
+
+================================================================

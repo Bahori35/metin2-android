@@ -1,0 +1,17 @@
+*.obj
+*.lib
+*.exe
+*.pdb
+*.idb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.iobj
+*.ipdb
+*.pch
+*.res
+*.rar
+.gradle/
+.idea/
+build/
+bin/

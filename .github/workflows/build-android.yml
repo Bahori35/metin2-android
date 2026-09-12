@@ -1,0 +1,45 @@
+name: Build Metin2 Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Android NDK
+        uses: nandroid/setup-ndk@v1
+        with:
+          ndk-version: r25c
+
+      - name: Grant execute permission for gradlew
+        working-directory: r10dev.net OPENGL-ITJA/android
+        run: |
+          if [ -f "gradlew" ]; then
+            chmod +x gradlew
+          fi
+
+      - name: Build with Gradle
+        working-directory: r10dev.net OPENGL-ITJA/android
+        run: |
+          gradle assembleDebug --stacktrace || ./gradlew assembleDebug --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: metin2-mobile-debug-apk
+          path: r10dev.net OPENGL-ITJA/android/app/build/outputs/apk/debug/*.apk
